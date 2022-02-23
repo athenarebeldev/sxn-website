@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+    <title>Stafngrimr the Artist</title>
+    <link href="main.css" style="text/css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+	<meta name="description" content="Pencil and ink drawings as well as Oil Paintings for sale or commission by Stafngrimr">
+	<meta name="keywords" content="art,paintings,art for sale,sale,store,estore,artshop,gallery, artist">
+	<meta name="author" content="Stephen Carder">
+	<html lang="en-US">
+    <link rel="shortcut icon" href="img/skull.ico" />
+    <script>if (screen.width <= 923) {
+        document.location = "http://m.stafngrimr.com";
+    }
+    </script>
+</head>
+
+<body>
+<nav>
+    <a href="index.html" style="padding: 20px;"><img src="img/staf.png" height="50" width="50"></a>
+    <a href="pencils.html"><strong>Pencils</strong></a>
+    <a href="oils.html"><strong>Oils</strong></a>
+    <a href="inks.html"><strong>Inks</strong></a>  
+    <a href="life.html"><strong>Life Drawings</strong></a>
+    <a class="shop" href="merch.html"><strong>Merch</strong></a>
+    <a class="shop" href="artprints.html"><strong>Art Prints</strong></a>
+</nav>
+
+<footer>		
+      <a href="http://ello.co/stafngrimr"	 target="_blank">
+          <img src="img/logos/ello.png" class="image" height="30" width="30"></a>
+          
+	    <a href="http://www.instagram.com/staf_sketches" target="_blank">
+        <img src="img/logos/instagram.png" height="30" width="30"></a>
+
+    <a href="http://www.facebook.com/stafngrimr" target="_blank">
+        <img src="img/logos/facebook.png" height="30" width="30"></a>  
+    <p class="social">Follow me on Social Media!</p>
+</footer>
+
+<div class="welcome1">  
+    <h2>Stephen is an artist from the UK. He works with oil paints,<br>
+		and indian inks to create surrealist images, portraits and<br>
+		tell ridiculous stories.</h2>
+    <p>Available to buy on the website are prints of some of his works,<br>
+    as well as t-shirts and other merchandise.</p>
+    <p>For any business enquiries, or commission requests please email:</p>
+    <h2>stephen@stafngrimr.com</h2>
+    <p>And don't forget to follow the Instagram page for regular updates!</p>
+    <br>
+    <br>
+    <h2>Website Update:</h2>
+    <p>Have cleaned up the social media logos and<br>
+    added one for Ello, where I'll now be blogging!</p>
+</div>
+
+<div class="welcome2">
+    <div class="mySlides fade">
+      <img src="img/selfie.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/selfie2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/selfie3.jpg" style="width:100%">
+    </div>
+    <div style="text-align:center;bottom:0;padding-top:10px">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+<script>
+      var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
