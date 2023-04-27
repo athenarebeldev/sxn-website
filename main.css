@@ -1,8 +1,9 @@
 body {
     background-image:url("img/background.jpg");
     background-color: #1A1A1A;
-	font-family: 'Courier New', Courier, monospace;
-	color: white;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 
 nav {
