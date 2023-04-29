@@ -1,7 +1,9 @@
-# STAFNGRIMR
+# Stafngrimr Art Gallery & Eshop
 
-It's probably definitely about time that I had this on here.
+This is the webshop and gallery for the artist Stafngrimr.
 
-Going to be making some big changes to it. but here it is for now
+## Changes currently in progress
 
-Staf
+- Cleaning up the merch page with new items
+- Cleaning up the prints page with new items
+- Cleaning up code to work on mobile in a better way
