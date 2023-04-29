@@ -181,3 +181,8 @@ button {
   font-size: 16px;
   cursor: pointer;
 }
+
+#player {
+  width: 200px;
+  height: 200px;
+}
