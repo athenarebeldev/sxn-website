@@ -1,33 +1,35 @@
 <!doctype html>
 <html>
 <head>
-    <title>Stafngrimr the Artist</title>
-    <link href="main.css" style="text/css" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-	<meta name="description" content="Pencil and ink drawings as well as Oil Paintings for sale or commission by Stafngrimr">
-	<meta name="keywords" content="art,paintings,art for sale,sale,store,estore,artshop,gallery, artist">
-	<meta name="author" content="Stephen Carder">
-	<html lang="en-US">
-    <link rel="shortcut icon" href="img/skull.ico" />
-    <script>if (screen.width <= 923) {
-        document.location = "http://m.stafngrimr.com";
+  <title>Stafngrimr the Artist</title>
+  <link href="main.css" style="text/css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="description" content="Pencil and ink drawings as well as Oil Paintings for sale or commission by Stafngrimr">
+  <meta name="keywords" content="art,paintings,art for sale,sale,store,estore,artshop,gallery, artist">
+  <meta name="author" content="Stephen Carder">
+  <html lang="en-US">
+  <link rel="shortcut icon" href="img/skull.ico" />
+  <script>
+    if (screen.width <= 768) {
+      document.location = "http://m.stafngrimr.com";
     }
-    </script>
+  </script>
 </head>
 
 <body>
 <nav>
-    <a href="index.html" style="padding: 20px;"><img src="img/staf.png" height="50" width="50"></a>
-    <a href="pencils.html"><strong>Pencils</strong></a>
-    <a href="oils.html"><strong>Oils</strong></a>
-    <a href="inks.html"><strong>Inks</strong></a>  
-    <a href="life.html"><strong>Life Drawings</strong></a>
-    <a class="shop" href="merch.html"><strong>Merch</strong></a>
-    <a class="shop" href="artprints.html"><strong>Art Prints</strong></a>
+  <a href="index.html" style="padding: 20px;"><img src="img/staf.png" height="50" width="50"></a>
+  <a href="pencils.html"><strong>Pencils</strong></a>
+  <a href="oils.html"><strong>Oils</strong></a>
+  <a href="inks.html"><strong>Inks</strong></a>  
+  <a href="life.html"><strong>Life Drawings</strong></a>
+  <a class="shop" href="merch.html"><strong>Merch</strong></a>
+  <a class="shop" href="artprints.html"><strong>Art Prints</strong></a>
 </nav>
 
-<div class="welcome1">  
+<div id="maincontainer">
+  <div id="leftside-main">  
     <p>Stephen is an artist from the UK. He works with oil paints, and indian inks to create surrealist images, portraits and tell ridiculous stories.</p>
     <p>Available to buy on the website are prints of some of his works,<br>
     as well as t-shirts and other merchandise.</p>
@@ -35,11 +37,18 @@
     <a href="mailto:stephen@stafngrimr.com"><h2>stephen@stafngrimr.com</h2></a>
     <p>And don't forget to follow the Instagram page for more regular updates!</p>
     <a href="http://www.instagram.com/staf_sketches" target="_blank"><h2>@staf_sketches</h2></a>
-</div>
+    <div id="player">
+      <iframe id="player-frame" src="lastfm-now-playing/index.html" frameborder="0" scrolling="no">
+      </iframe>
+    </div>
+  </div>
+  <div id="rightside-main">
+    <div id="stafsback">
+      <img src="img/stafsback.jpg" height="480px" width="480px">
+    </div>
+  </div>
 
-<div id="player">
-  <iframe id="player-frame" src="lastfm-now-playing/index.html" frameborder="0" scrolling="no">
-  </iframe>
+  
 </div>
 
 </body>
