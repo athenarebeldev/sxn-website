@@ -16,6 +16,8 @@ nav {
     width: 100%;
 }
 
+
+
 nav a {
     float: left;
     color: #ddd;
@@ -46,25 +48,34 @@ nav a:hover {
 }
 
 #maincontainer {
-  margin-top:150px;
+  margin-top:175px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
+  flex-wrap: wrap;
   max-width: 1500px;
   justify-content: center;
 }
 
 #leftside-main {
-    margin-right: 20px;
-    max-width: 500px;
-    padding: 20px;
-    position: relative;
-    background-color: #b2b2b2;
-    background-color: rgba(0, 0, 0, 0.400);
+  margin-right: 40px;
+  max-width: 500px;
+  padding: 25px;
+  position: relative;
+  background-color: #b2b2b2;
+  background-color: rgba(0, 0, 0, 0.400);
+  flex: 50%;
 }
 
+#rightside-main {
+  flex: 50%;
+  max-width: 550px;
+}
+
+
 #stafsback {
-  margin-right: 20px;
   background-color: rgba(0, 0, 0, 0.400);
-  padding: 20px;  
+  padding: 25px;  
 }
 
 #player {
@@ -113,4 +124,19 @@ button {
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #leftside-main {
+    margin-right: 0px;
+    flex: 100%;
+  }
+
+  #rightside-main {
+    flex: 100%;
+  }
+
+  #stafsbackPic {
+    width: 100%;
+  }
 }
