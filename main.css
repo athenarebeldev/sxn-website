@@ -37,7 +37,6 @@ nav a:hover {
 .art-container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
 }
 
 .writeup {
@@ -84,7 +83,7 @@ nav a:hover {
 }
 
 .preview {
-	margin: 10px;
+	margin: 15px;
 	width: 300px;
 	border: 2px groove #ccc;
 	padding: 2px;
@@ -108,7 +107,7 @@ button {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
   #leftside-main {
     margin-right: 0px;
     margin-bottom: 25px;
@@ -129,7 +128,6 @@ button {
   }
 
   .art-container {
-    flex-direction: column;
     justify-content: center;
   }
 

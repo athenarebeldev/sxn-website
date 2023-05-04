@@ -1,5 +1,5 @@
 function ready() {
-  if (screen.width <= 768) {
+  if (screen.width <= 810) {
     const nav = document.querySelector("nav");
     
     const link = document.createElement("a");
