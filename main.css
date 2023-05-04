@@ -70,6 +70,12 @@ nav a:hover {
   max-width: 550px;
 }
 
+#links {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
 
 #stafsback {
   background-color: rgba(0, 0, 0, 0.400);
