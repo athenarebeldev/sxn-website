@@ -1,6 +1,6 @@
 // get your own last.fm api key from https://www.last.fm/api/account/create
-LASTFM_API_KEY = "d74f9fdb9c79a50ffac2ca0700892ca1"
-username = "Stafngrimr" // change username here
+LASTFM_API_KEY = "d70a2be07b125584817119bbc9829be1"
+username = "Ayoitssan" // change username here
 url = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&format=json&api_key=" + LASTFM_API_KEY + "&limit=1&user=" + username
 
 // make API call
@@ -61,7 +61,7 @@ trackLinkElem.target = "_blank"
 trackLinkElem.textContent = track
 
 userLinkElem = document.createElement('a')
-userLinkElem.href = "https://www.last.fm/user/Stafngrimr"
+userLinkElem.href = "https://www.last.fm/user/Ayoitssan"
 userLinkElem.target = "_blank"
 userLinkElem.textContent = (relative_time != null) ? relative_time : "Currently listening to..."
 

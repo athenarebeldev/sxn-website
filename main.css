@@ -1,5 +1,5 @@
 body {
-    background-image:url("img/background.jpg");
+    background-image:url("");
     background-color: #1A1A1A;
     background-attachment: fixed;
     font-family: 'Courier New', Courier, monospace;
@@ -77,7 +77,7 @@ nav a:hover {
 }
 
 
-#stafsback {
+#san {
   background-color: rgba(0, 0, 0, 0.400);
   padding: 25px;  
 }
@@ -113,6 +113,25 @@ button {
   cursor: pointer;
 }
 
+.fab,
+    .far {
+        font-size: 24px;
+        color: #333; 
+    }
+
+    .fab.fa-instagram {
+        color: #bc2a8d;
+    }
+
+    .far.fa-envelope {
+        color: #007bff; 
+    }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
 @media (max-width: 810px) {
   #leftside-main {
     margin-right: 0px;
@@ -125,11 +144,11 @@ button {
     flex: 100%;
   }
 
-  #stafsback {
+  #san {
     background-color:rgba(0, 0, 0, 0);
   }
 
-  #stafsbackPic {
+  #sanPic {
     width: 100%;
   }
 
