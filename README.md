@@ -20,12 +20,19 @@
 
 ### If everything works as intented 
 1. Edit your files
+> 
 > Open 'about.html' and make edits
+> 
 > Open 'art.html' and make edits
+> 
 > Open 'commision.html' and make edits
+> 
 > Open 'edits.html' and make edits
+> 
 > Open 'graphics.html' and make edits
+> 
 > Open 'index.html' and make edits
+> 
 *Quick Tip - 'index.html' is your main file. This is the main page that will appear when your page is loaded.*
 
 ### Adding Images 
@@ -82,9 +89,13 @@
 
 ### Premade containers 
 > `<div class="writeup">` - Container for text (H1, H2, H3, P, and images)
+> 
 > `<div id="leftside-main">` - Left side container for text (H1, H2, H3, P, and images)
+> 
 > `<div id="rightside-main">` - Right side container for text (H1, H2, H3, P, and images)
+> 
 > `<div id="links">` - Container for links
+> 
 > `<div class="art-container">` - Container for Images
 
 ### Tips 
