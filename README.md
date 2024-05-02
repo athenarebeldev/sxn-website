@@ -101,3 +101,9 @@
 ### Tips 
 1. Close all `<div>` containers with `</div>`
 2. Do not use uppercase for code `<DIV>`, `<Div>`, etc. ❌
+
+### Am I doing it right? 
+> Once you have completed your edits and pushed everything to the master branch using 'git push --force', the icon below will be set to "building"
+> 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0474eb42-2f9b-4f83-a55e-6d3a03f5189c/deploy-status)](https://app.netlify.com/sites/sxn-web/deploys)
+*If it does not say building refresh the main website and see if your changes had gone through, if not check the error logs*
