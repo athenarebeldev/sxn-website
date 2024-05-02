@@ -34,17 +34,17 @@
 3. Move the image to the 'img' folder
 4. Copy your image into the './preview' folder, you should have 2 of the same images
 5. Copy the code below to add it into a file
-> ```
-> <div class="preview">
->    <a href="[IMAGE PREVIEW URL]" target="_blank"><img src="[IMAGE URL]" alt="Title"></a>
-> </div>
->  ```
+```
+ <div class="preview">
+    <a href="[IMAGE PREVIEW URL]" target="_blank"><img src="[IMAGE URL]" alt="Title"></a>
+ </div>
+```
 
 ### Adding a new page
 1. Select the '+' icon at the top of the file explorer
 2. Type `<your title>.html` (i.e. `music.html`)
 3. Copy the code below and paste it onto the new page, edit it to your liking
-> ```
+    ```
     <head>
     <title>[PAGE TITLE]</title>
     <link href="main.css" style="text/css" rel="stylesheet">
@@ -77,7 +77,7 @@
 
     </div>
     </body>
-> ```
+    ```
 
 
 ### Premade containers 
